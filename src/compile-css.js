@@ -1,0 +1,1 @@
+require('child_process').execSync('npx tailwindcss -i ./src/index.css -o ./src/tailwind-output.css', { stdio: 'inherit' });
